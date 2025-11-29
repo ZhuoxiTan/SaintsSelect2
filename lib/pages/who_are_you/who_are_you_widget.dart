@@ -1251,7 +1251,7 @@ class _WhoAreYouWidgetState extends State<WhoAreYouWidget> {
                                 ),
                                 Padding(
                                   padding: EdgeInsetsDirectional.fromSTEB(
-                                      244.0, 0.0, 0.0, 0.0),
+                                      245.0, 0.0, 0.0, 0.0),
                                   child: FFButtonWidget(
                                     onPressed: () {
                                       print('Button pressed ...');
