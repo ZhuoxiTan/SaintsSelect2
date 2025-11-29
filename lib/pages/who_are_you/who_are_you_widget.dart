@@ -119,7 +119,7 @@ class _WhoAreYouWidgetState extends State<WhoAreYouWidget> {
                               ),
                             ],
                           ),
-                          Row(
+                          Column(
                             mainAxisSize: MainAxisSize.max,
                             children: [
                               Expanded(
@@ -127,7 +127,7 @@ class _WhoAreYouWidgetState extends State<WhoAreYouWidget> {
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       0.0, 20.0, 0.0, 0.0),
                                   child: Text(
-                                    'ENTER THE DETAILS YOU’D LIKE TO SHARE ABOUT YOURSELF',
+                                    'ENTER THE DETAILS YOU’D LIKE TO SHARE ABOUT',
                                     textAlign: TextAlign.center,
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
@@ -154,6 +154,34 @@ class _WhoAreYouWidgetState extends State<WhoAreYouWidget> {
                                                   .fontStyle,
                                         ),
                                   ),
+                                ),
+                              ),
+                              Expanded(
+                                child: Text(
+                                  'YOURSELF',
+                                  textAlign: TextAlign.center,
+                                  style: FlutterFlowTheme.of(context)
+                                      .bodyMedium
+                                      .override(
+                                        font: GoogleFonts.oswald(
+                                          fontWeight:
+                                              FlutterFlowTheme.of(context)
+                                                  .bodyMedium
+                                                  .fontWeight,
+                                          fontStyle:
+                                              FlutterFlowTheme.of(context)
+                                                  .bodyMedium
+                                                  .fontStyle,
+                                        ),
+                                        fontSize: 32.0,
+                                        letterSpacing: 0.0,
+                                        fontWeight: FlutterFlowTheme.of(context)
+                                            .bodyMedium
+                                            .fontWeight,
+                                        fontStyle: FlutterFlowTheme.of(context)
+                                            .bodyMedium
+                                            .fontStyle,
+                                      ),
                                 ),
                               ),
                             ],
