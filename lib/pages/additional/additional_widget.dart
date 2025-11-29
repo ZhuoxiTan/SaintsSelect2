@@ -370,7 +370,7 @@ class _AdditionalWidgetState extends State<AdditionalWidget> {
                                                     .primary,
                                             borderRadius: 30.0,
                                             borderWidth: 4.0,
-                                            buttonSize: 39.28,
+                                            buttonSize: 39.3,
                                             fillColor:
                                                 FlutterFlowTheme.of(context)
                                                     .primaryBackground,
