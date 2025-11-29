@@ -1316,6 +1316,10 @@ class _WhoAreYouWidgetState extends State<WhoAreYouWidget> {
                                         width: 1.0,
                                       ),
                                       borderRadius: BorderRadius.circular(0.0),
+                                      hoverColor:
+                                          FlutterFlowTheme.of(context).accent4,
+                                      hoverTextColor:
+                                          FlutterFlowTheme.of(context).info,
                                     ),
                                   ),
                                 ),
@@ -2057,6 +2061,10 @@ class _WhoAreYouWidgetState extends State<WhoAreYouWidget> {
                                       width: 1.0,
                                     ),
                                     borderRadius: BorderRadius.circular(0.0),
+                                    hoverColor:
+                                        FlutterFlowTheme.of(context).accent4,
+                                    hoverTextColor:
+                                        FlutterFlowTheme.of(context).info,
                                   ),
                                 ),
                               ],
@@ -2154,6 +2162,13 @@ class _WhoAreYouWidgetState extends State<WhoAreYouWidget> {
                                           ),
                                           borderRadius:
                                               BorderRadius.circular(100.0),
+                                          hoverColor:
+                                              FlutterFlowTheme.of(context)
+                                                  .primary,
+                                          hoverBorderSide: BorderSide(
+                                            color: FlutterFlowTheme.of(context)
+                                                .primaryText,
+                                          ),
                                         ),
                                       ),
                                     ),
@@ -2242,6 +2257,13 @@ class _WhoAreYouWidgetState extends State<WhoAreYouWidget> {
                                           ),
                                           borderRadius:
                                               BorderRadius.circular(100.0),
+                                          hoverColor:
+                                              FlutterFlowTheme.of(context)
+                                                  .primary,
+                                          hoverBorderSide: BorderSide(
+                                            color: FlutterFlowTheme.of(context)
+                                                .primaryText,
+                                          ),
                                         ),
                                       ),
                                     ),
