@@ -67,8 +67,8 @@ class _AdditionalWidgetState extends State<AdditionalWidget> {
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
               Container(
-                width: 1440.0,
-                height: 900.0,
+                width: MediaQuery.sizeOf(context).width,
+                height: MediaQuery.sizeOf(context).height,
                 decoration: BoxDecoration(
                   color: FlutterFlowTheme.of(context).primary,
                   shape: BoxShape.rectangle,
@@ -77,6 +77,7 @@ class _AdditionalWidgetState extends State<AdditionalWidget> {
                   padding:
                       EdgeInsetsDirectional.fromSTEB(100.0, 0.0, 100.0, 0.0),
                   child: Container(
+                    width: 100.0,
                     height: 100.0,
                     decoration: BoxDecoration(
                       color: FlutterFlowTheme.of(context).secondaryBackground,
@@ -117,43 +118,11 @@ class _AdditionalWidgetState extends State<AdditionalWidget> {
                           Column(
                             mainAxisSize: MainAxisSize.max,
                             children: [
-                              Expanded(
-                                child: Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
-                                      0.0, 20.0, 0.0, 0.0),
-                                  child: Text(
-                                    'ENTER THE DETAILS YOU’D LIKE TO SHARE ABOUT ',
-                                    textAlign: TextAlign.center,
-                                    style: FlutterFlowTheme.of(context)
-                                        .bodyMedium
-                                        .override(
-                                          font: GoogleFonts.oswald(
-                                            fontWeight:
-                                                FlutterFlowTheme.of(context)
-                                                    .bodyMedium
-                                                    .fontWeight,
-                                            fontStyle:
-                                                FlutterFlowTheme.of(context)
-                                                    .bodyMedium
-                                                    .fontStyle,
-                                          ),
-                                          fontSize: 32.0,
-                                          letterSpacing: 0.0,
-                                          fontWeight:
-                                              FlutterFlowTheme.of(context)
-                                                  .bodyMedium
-                                                  .fontWeight,
-                                          fontStyle:
-                                              FlutterFlowTheme.of(context)
-                                                  .bodyMedium
-                                                  .fontStyle,
-                                        ),
-                                  ),
-                                ),
-                              ),
-                              Expanded(
+                              Padding(
+                                padding: EdgeInsetsDirectional.fromSTEB(
+                                    0.0, 20.0, 0.0, 0.0),
                                 child: Text(
-                                  'YOURSELF',
+                                  'ENTER THE DETAILS YOU’D LIKE TO SHARE ABOUT ',
                                   textAlign: TextAlign.center,
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
@@ -178,6 +147,30 @@ class _AdditionalWidgetState extends State<AdditionalWidget> {
                                             .fontStyle,
                                       ),
                                 ),
+                              ),
+                              Text(
+                                'YOURSELF',
+                                textAlign: TextAlign.center,
+                                style: FlutterFlowTheme.of(context)
+                                    .bodyMedium
+                                    .override(
+                                      font: GoogleFonts.oswald(
+                                        fontWeight: FlutterFlowTheme.of(context)
+                                            .bodyMedium
+                                            .fontWeight,
+                                        fontStyle: FlutterFlowTheme.of(context)
+                                            .bodyMedium
+                                            .fontStyle,
+                                      ),
+                                      fontSize: 32.0,
+                                      letterSpacing: 0.0,
+                                      fontWeight: FlutterFlowTheme.of(context)
+                                          .bodyMedium
+                                          .fontWeight,
+                                      fontStyle: FlutterFlowTheme.of(context)
+                                          .bodyMedium
+                                          .fontStyle,
+                                    ),
                               ),
                             ],
                           ),

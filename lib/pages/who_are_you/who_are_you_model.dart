@@ -1,8 +1,13 @@
 import '/flutter_flow/flutter_flow_util.dart';
+import '/flutter_flow/form_field_controller.dart';
 import 'who_are_you_widget.dart' show WhoAreYouWidget;
 import 'package:flutter/material.dart';
 
 class WhoAreYouModel extends FlutterFlowModel<WhoAreYouWidget> {
+  ///  Local state fields for this page.
+
+  bool isNonAthleteSelected = false;
+
   ///  State fields for stateful widgets in this page.
 
   // State field(s) for TextField widget.
@@ -33,6 +38,12 @@ class WhoAreYouModel extends FlutterFlowModel<WhoAreYouWidget> {
   FocusNode? textFieldFocusNode7;
   TextEditingController? textController7;
   String? Function(BuildContext, String?)? textController7Validator;
+  // State field(s) for RadioButton widget.
+  FormFieldController<String>? radioButtonValueController;
+  // State field(s) for Checkbox widget.
+  bool? checkboxValue1;
+  // State field(s) for Checkbox widget.
+  bool? checkboxValue2;
 
   @override
   void initState(BuildContext context) {}
@@ -60,4 +71,7 @@ class WhoAreYouModel extends FlutterFlowModel<WhoAreYouWidget> {
     textFieldFocusNode7?.dispose();
     textController7?.dispose();
   }
+
+  /// Additional helper methods.
+  String? get radioButtonValue => radioButtonValueController?.value;
 }
