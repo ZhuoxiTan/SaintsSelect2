@@ -3,6 +3,7 @@ import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import '/flutter_flow/form_field_controller.dart';
+import '/index.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
@@ -434,7 +435,7 @@ class _WhoAreYouWidgetState extends State<WhoAreYouWidget> {
                                               fontFamily:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMediumFamily,
-                                              fontSize: 5.0,
+                                              fontSize: 14.0,
                                               letterSpacing: 0.0,
                                               useGoogleFonts:
                                                   !FlutterFlowTheme.of(context)
@@ -605,7 +606,7 @@ class _WhoAreYouWidgetState extends State<WhoAreYouWidget> {
                                               fontFamily:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMediumFamily,
-                                              fontSize: 5.0,
+                                              fontSize: 14.0,
                                               letterSpacing: 0.0,
                                               useGoogleFonts:
                                                   !FlutterFlowTheme.of(context)
@@ -776,7 +777,7 @@ class _WhoAreYouWidgetState extends State<WhoAreYouWidget> {
                                               fontFamily:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMediumFamily,
-                                              fontSize: 5.0,
+                                              fontSize: 14.0,
                                               letterSpacing: 0.0,
                                               useGoogleFonts:
                                                   !FlutterFlowTheme.of(context)
@@ -1092,7 +1093,7 @@ class _WhoAreYouWidgetState extends State<WhoAreYouWidget> {
                             child: Row(
                               mainAxisSize: MainAxisSize.max,
                               children: [
-                                Flexible(
+                                Expanded(
                                   child: Align(
                                     alignment: AlignmentDirectional(0.0, 0.0),
                                     child: Container(
@@ -1185,7 +1186,7 @@ class _WhoAreYouWidgetState extends State<WhoAreYouWidget> {
                                               fontFamily:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMediumFamily,
-                                              fontSize: 5.0,
+                                              fontSize: 14.0,
                                               letterSpacing: 0.0,
                                               useGoogleFonts:
                                                   !FlutterFlowTheme.of(context)
@@ -1193,7 +1194,7 @@ class _WhoAreYouWidgetState extends State<WhoAreYouWidget> {
                                             ),
                                         textAlign: TextAlign.start,
                                         maxLines: 50,
-                                        minLines: 20,
+                                        minLines: 4,
                                         cursorColor:
                                             FlutterFlowTheme.of(context)
                                                 .primaryText,
@@ -1498,7 +1499,7 @@ class _WhoAreYouWidgetState extends State<WhoAreYouWidget> {
                                                             FlutterFlowTheme.of(
                                                                     context)
                                                                 .bodyMediumFamily,
-                                                        fontSize: 5.0,
+                                                        fontSize: 14.0,
                                                         letterSpacing: 0.0,
                                                         useGoogleFonts:
                                                             !FlutterFlowTheme
@@ -1687,7 +1688,7 @@ class _WhoAreYouWidgetState extends State<WhoAreYouWidget> {
                                                             FlutterFlowTheme.of(
                                                                     context)
                                                                 .bodyMediumFamily,
-                                                        fontSize: 5.0,
+                                                        fontSize: 14.0,
                                                         letterSpacing: 0.0,
                                                         useGoogleFonts:
                                                             !FlutterFlowTheme
@@ -1876,7 +1877,7 @@ class _WhoAreYouWidgetState extends State<WhoAreYouWidget> {
                                                             FlutterFlowTheme.of(
                                                                     context)
                                                                 .bodyMediumFamily,
-                                                        fontSize: 5.0,
+                                                        fontSize: 14.0,
                                                         letterSpacing: 0.0,
                                                         useGoogleFonts:
                                                             !FlutterFlowTheme
@@ -2270,8 +2271,9 @@ class _WhoAreYouWidgetState extends State<WhoAreYouWidget> {
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 FFButtonWidget(
-                                  onPressed: () {
-                                    print('Button pressed ...');
+                                  onPressed: () async {
+                                    context
+                                        .pushNamed(AdditionalWidget.routeName);
                                   },
                                   text: 'CONTINUE',
                                   options: FFButtonOptions(

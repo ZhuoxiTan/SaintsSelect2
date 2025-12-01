@@ -581,7 +581,7 @@ class _AdditionalWidgetState extends State<AdditionalWidget> {
                                                       FlutterFlowTheme.of(
                                                               context)
                                                           .bodyMediumFamily,
-                                                  fontSize: 5.0,
+                                                  fontSize: 14.0,
                                                   letterSpacing: 0.0,
                                                   useGoogleFonts:
                                                       !FlutterFlowTheme.of(
@@ -721,7 +721,7 @@ class _AdditionalWidgetState extends State<AdditionalWidget> {
                                                       FlutterFlowTheme.of(
                                                               context)
                                                           .bodyMediumFamily,
-                                                  fontSize: 5.0,
+                                                  fontSize: 14.0,
                                                   letterSpacing: 0.0,
                                                   useGoogleFonts:
                                                       !FlutterFlowTheme.of(
@@ -861,7 +861,7 @@ class _AdditionalWidgetState extends State<AdditionalWidget> {
                                                       FlutterFlowTheme.of(
                                                               context)
                                                           .bodyMediumFamily,
-                                                  fontSize: 5.0,
+                                                  fontSize: 14.0,
                                                   letterSpacing: 0.0,
                                                   useGoogleFonts:
                                                       !FlutterFlowTheme.of(
@@ -1003,7 +1003,7 @@ class _AdditionalWidgetState extends State<AdditionalWidget> {
                                                       FlutterFlowTheme.of(
                                                               context)
                                                           .bodyMediumFamily,
-                                                  fontSize: 5.0,
+                                                  fontSize: 14.0,
                                                   letterSpacing: 0.0,
                                                   useGoogleFonts:
                                                       !FlutterFlowTheme.of(
@@ -1150,7 +1150,7 @@ class _AdditionalWidgetState extends State<AdditionalWidget> {
                                                       FlutterFlowTheme.of(
                                                               context)
                                                           .bodyMediumFamily,
-                                                  fontSize: 5.0,
+                                                  fontSize: 14.0,
                                                   letterSpacing: 0.0,
                                                   useGoogleFonts:
                                                       !FlutterFlowTheme.of(
